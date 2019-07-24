@@ -435,7 +435,7 @@ header {
     background: red;
 }
 .nav-wrapper {
-    max-width: 1200px;
+max-width: 1200px;
 background: black;
 margin: 0 auto;
 position: relative;
@@ -448,7 +448,7 @@ align-items: center;
 nav.nav-wrapper ul li{
     display: inline-block;
     padding: 0 10px;
-    margin-bottom:0;}
+    margin-bottom: 0;}
 }
 
 nav.nav-wrapper ul li a {
@@ -459,7 +459,17 @@ nav.nav-wrapper ul li a {
     cursor: pointer;
     border-bottom: 1px solid transparent;
 }
-nav.nav-wrapper ul li a{
-    border-bottom: 1px solid #ffffff;
+nav.nav-wrapper ul li a {
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+padding-bottom: 3px;
+transition: 0.3s;
 
+}
+nav.nav-wrapper ul li a:hover {
+    border-bottom: 1px solid #ffffff;
 }
