@@ -441,6 +441,12 @@ header.sticky {
     left:0;
     right:0;
     background: green;
+    transform: translateY(-200%);
+    transition: 0.2s;
+}
+
+body.scroll header.sticky{
+    transform: translateY(0);
 }
 .nav-wrapper {
     max-width: 1200px;
