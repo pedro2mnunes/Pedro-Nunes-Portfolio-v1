@@ -429,6 +429,12 @@ h1 {
     font-size: 35px;
     color: red;
 }
+.wrapper {
+    max-width: 110px;
+    width: 100%;
+    margin:0 auto;
+
+}
 
 /* NAVIGATION BAR + HEADER STYLE START*/
 

@@ -28,12 +28,37 @@
             </ul>
         </nav>
     </header>
+<div class="wrapper">
+    <ul id="scene"
+            data-invert-x="false"
+            data-invert-y="false"
+            data-scalar-x="0"
+            data-scalar-y="0"
+            data-friction-x="0"
+            data-friction-y="0"
+            data-origin-x="0"
+            data-origin-y="0">
+        <li class="layer name" data-depth="0">Your Name Here</li>
+        <li class="layer title" data-depth="0">Your Designation Here</li>
+        <li class="layer btn btn-main">
+            <a href="#" class="portfolio-btn">View Portfolio</a>
+            <a href="#" class="contact-btn">Contact Me</a>
+        </li>
+    </ul>
+</div>
+
+
+
+
 </section>      
 
-    <!-- Link to jQuery file: -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
   <script src="scripts/parallax.min.js"></script>
   <script src="scripts/main.js"></script>
+  <script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  </script>
 </body>
 </html>
