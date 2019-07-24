@@ -39,8 +39,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
-    
-}
+    }
 
 ol, ul {
 	list-style: none;
@@ -430,25 +429,34 @@ h1 {
     font-size: 35px;
     color: red;
 }
-/* NAVIGATION BAR + STYLE START*/
+
+/* NAVIGATION BAR + HEADER STYLE START*/
+
 header {
     background: red;
 }
-.nav-wrapper {
-max-width: 1200px;
-background: black;
-margin: 0 auto;
-position: relative;
-padding: 7px 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-
+header.sticky {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background: green;
 }
-nav.nav-wrapper ul li{
+.nav-wrapper {
+    max-width: 1200px;
+    background: black;
+    margin: 0 auto;
+    position: relative;
+    padding: 7px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.nav-wrapper ul li {
     display: inline-block;
     padding: 0 10px;
-    margin-bottom: 0;}
+    margin-bottom: 0;
 }
 
 nav.nav-wrapper ul li a {
@@ -458,22 +466,14 @@ nav.nav-wrapper ul li a {
     color : white;
     cursor: pointer;
     border-bottom: 1px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.3s;
 }
-nav.nav-wrapper ul li a {
-    font-size: 17px;
-    line-height: 22px;
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    border-bottom: 1px solid transparent;
-padding-bottom: 3px;
-transition: 0.3s;
 
-}
 nav.nav-wrapper ul li a:hover {
     border-bottom: 1px solid #ffffff;
 }
-header .logo img {
-max-width: 100px;
 
+header .logo img {
+    max-width: 100px;
 }
