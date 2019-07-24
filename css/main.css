@@ -430,7 +430,7 @@ h1 {
     font-size: 35px;
     color: red;
 }
-/* NAVIGATION BAR STYLE START*/
+/* NAVIGATION BAR + STYLE START*/
 header {
     background: red;
 }
@@ -472,4 +472,8 @@ transition: 0.3s;
 }
 nav.nav-wrapper ul li a:hover {
     border-bottom: 1px solid #ffffff;
+}
+header .logo img {
+max-width: 100px;
+
 }
