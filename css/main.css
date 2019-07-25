@@ -489,3 +489,23 @@ nav.nav-wrapper ul li a:hover {
 header .logo img {
     max-width: 100px;
 }
+/* PARALLAX PAGE STYLE START */
+.cover-main {
+    background: linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/hero-bg.jpg') right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh,
+}
+ul#scene li.name {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+ul#scene li.title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+} 
+.btn {
+    margin-top: 150px;
+}
