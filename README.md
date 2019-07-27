@@ -1,13 +1,10 @@
-
-
 ***Portfolio***
 
 # Pedro Nunes
 
-> Portfolio
+> A collection of my best for your consideration.
 
-> ideally one sentence
-
+> My skills set includes a solid foundation in JavaScript including jQuery, CSS, and HTML. I have used Git version control.
 > include terms/tags that can be searched
 
 **Badges will go here**
