@@ -16,8 +16,17 @@ $("body").toggleClass("scroll",(scrollFromTop > 350));
             scrollTop: target.offset().top -60
         }, 1000);
     }
-
 });
+ // MASONRY
+ $('.grid').masonry({
+    //options
+    itemSelector: '.grid-item',
+    columnWidth: 120,
+    fitWidth: true,
+    gutter: 0
+});
+
+
 //SLICK SLIDER
 $('.slider').slick({
     autoplay: true,
